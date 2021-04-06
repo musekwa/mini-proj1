@@ -26,6 +26,10 @@ export default {
 </script>
 
 <style>
+  #app {
+    color: rgb(60, 60, 172);
+    font-family: 'Teko', sans-serif;
+  }
   .aside {
     height: 100vh;
     position: fixed;
@@ -34,16 +38,21 @@ export default {
     width: 20%;
   }
   .main-content {
-    height: 77vh;
+    height: 73vh;
     margin-left: 20%;
-    border: 2px solid red;
+    color: rgb(18, 42, 62);
+    font-family: sans-serif !important;
   }
   .footer {
-    height: 20vh;
-    width: 80%;
+    height: 25vh;
+    width: 100%;
     position: fixed;
     bottom: 0;
     right: 0;
-    border: 2px solid black;
+  }
+
+  .aside,
+  .footer {
+    background-image: linear-gradient(200deg, #eff5ee, #f1ebec);
   }
 </style>

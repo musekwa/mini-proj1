@@ -1,7 +1,7 @@
 <template>
   <div class="main-bar">
     <div class="container-img">
-        <img v-bind:src="img" alt="" id="author-img">
+        <img src="../assets/img/img2.jpg" alt="evariste's picture" id="author-img">
     </div>
     <div class="container-anchor">
         <router-link to="/"  id="about-btn">Quem Sou Eu?</router-link>
@@ -21,27 +21,24 @@ export default {
       msg: 'Main Bar'
     }
   },
-  img: '../assets/img.jpg',
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
 .main-bar {
-    padding: 20px;
-    color: white;
+    padding: 15px;
     height: 100vh;
-    border: 6px solid green;
-    background-image: linear-gradient(120deg, #11500f, #ff537f);
+    background-image: linear-gradient(200deg, #eff5ee, #f1ebec);
 }
 
 #author-img {
     border-radius: 50%;
-    width: 100%;
+    width: 50%;
 }
 .container-img {
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -53,8 +50,8 @@ export default {
 .container-anchor a {
     text-decoration: none;
     justify-self: center;
-    color: rgb(196, 188, 188);
     font-size: 25px;
+    font-weight: bold;
     margin: 10px 0px;
     font-family: 'Teko', sans-serif;
     transition: all 0.3s ease;
@@ -62,8 +59,8 @@ export default {
 a:hover {
     width: 120px;
     text-align: center;
-    background-color: rgb(66, 30, 5);
-   
+    background-color: rgb(73, 68, 64);
+    color: #eff5ee;   
 }
 
 </style>
