@@ -1,5 +1,5 @@
 # mini-proj1
-
+Este mini-projeto-1 foi desenvolvido no âmbito de tarefas de Unidade Curricular Programação Web Avançada. É um projeto simples, mas demonstra como desenvolver uma SPA (Single-Page Application) utilizando Vue.js e Vue-Routing.
 ## Project setup
 ```
 npm install
