@@ -41,7 +41,7 @@ export default {
     height: 73vh;
     margin-left: 20%;
     color: rgb(18, 42, 62);
-    font-family: sans-serif !important;
+    font-family: 'Sarabun', sans-serif;
   }
   .footer {
     height: 25vh;
