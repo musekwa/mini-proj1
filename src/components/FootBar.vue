@@ -84,4 +84,13 @@ export default {
     margin: 0;
 }
 
+@media screen and (max-width: 800px){
+.external-links {
+    grid-column: 3/5;
+    grid-row: 1/2;
+
+}
+    
+  }
+
 </style>

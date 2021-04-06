@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="aside">
+    <div class="main-bar">
       <MainBar />
     </div>
     <div class="main-content">
@@ -30,7 +30,7 @@ export default {
     color: rgb(60, 60, 172);
     font-family: 'Teko', sans-serif;
   }
-  .aside {
+  .main-bar {
     height: 100vh;
     position: fixed;
     top: 0;
@@ -51,8 +51,10 @@ export default {
     right: 0;
   }
 
-  .aside,
+  .main-bar,
   .footer {
     background-image: linear-gradient(200deg, #eff5ee, #f1ebec);
   }
+
+
 </style>

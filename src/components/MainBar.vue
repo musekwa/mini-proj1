@@ -4,9 +4,9 @@
         <img src="../assets/img/img2.jpg" alt="evariste's picture" id="author-img">
     </div>
     <div class="container-anchor">
-        <router-link to="/"  id="about-btn">Quem Sou Eu?</router-link>
-        <router-link to="/work" id="work-btn"> O que faço?</router-link>
-        <router-link to="/hobbies" id="hobbies-btn">Hobbies</router-link>
+        <router-link to="/"  id="about-link" class="link">Quem Sou Eu?</router-link>
+        <router-link to="/work" id="work-link" class="link"> O que faço?</router-link>
+        <router-link to="/hobbies" id="hobbies-link" class="link">Hobbies</router-link>
     </div>
   </div>
 </template>
@@ -56,12 +56,26 @@ export default {
     font-family: 'Teko', sans-serif;
     transition: all 0.3s ease;
 }
-a:hover {
+.link:hover {
     width: 120px;
     text-align: center;
     background-color: rgb(73, 68, 64);
     color: #eff5ee;   
 }
+
+@media screen and (max-width: 600px){
+    img {
+        display: none;
+    }
+
+.link {
+    width: 100px;
+    text-align: center;
+    background-color: none; 
+}
+
+    
+  }
 
 </style>
 
